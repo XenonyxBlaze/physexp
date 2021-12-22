@@ -4,12 +4,12 @@
 
 <ul class="nav nav-pills" id="pills-tab" role="tablist">
     <li class="nav-item mx-2" role="presentation">
-      <button class="btn btn-warning" id="pills-proc-tab" data-bs-toggle="pill" data-bs-target="#pills-proc" type="button" role="tab" aria-controls="pills-proc" aria-selected="true">Procedure(Experimental)</button>
+      <button class="btn btn-warning" id="pills-proc-tab" data-bs-toggle="pill" data-bs-target="#pills-proc" type="button" aria-controls="pills-proc" aria-expanded="false">Procedure(Experimental)</button>
     </li>
   </ul>
   <br><br>
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade" id="pills-proc" role="tabpanel" aria-labelledby="pills-proc-tab">
+  <div class="collapse" id="pills-tabContent">
+    <div class="card card-body bg-secondary text-light" id="pills-proc">
       {% autoescape off %}
         {{proc}}
       {% endautoescape %}

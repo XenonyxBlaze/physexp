@@ -60,8 +60,8 @@ def pr2obs(m,r,h,n,N,t):
     m=float(m)/1000
     r=float(r)/100
     h=float(h)/100
-    n=int(n)
-    N=int(N)
+    n=float(n)
+    N=float(N)
     t=float(t)
     w=4*math.pi*N/t
     print('w',w)
