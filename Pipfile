@@ -9,6 +9,7 @@ django-environ = "*"
 requests = "*"
 lxml = "*"
 bs4 = "*"
+whitenoise = "*"
 
 [dev-packages]
 
