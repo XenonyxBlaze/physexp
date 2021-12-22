@@ -1,1 +1,1 @@
-web: gunicorn phy:application --reload --timeout 900
+web: gunicorn phy.wsgi --reload --timeout 900
