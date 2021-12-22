@@ -64,9 +64,10 @@ def pr2obs(m,r,h,n,N,t):
     N=float(N)
     t=float(t)
     w=4*math.pi*N/t
-    print('w',w)
-    i=(((n*m)/(n+N))*(((2*g*h)/(w**2))-(r**2)))
-    print('i',i)
+    a=(N*m)/(n+N)
+    b=(2*g*h)/(w**2)
+    c=b-(r**2)
+    i=a*c
     obs2.append([m,r,h,n,N,t,w,i])
     return obs2
 
