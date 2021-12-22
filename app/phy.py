@@ -31,7 +31,7 @@ formcols={
     3:['w1','w2','z1','z2'],
     4:['w','i','I'],
     5:['g','u','a','h'],
-    6:['i','d(mm)','r(mm)']
+    6:['i','d','r']
 }
 
 global obs1,obs2,obs3,obs4,obs5,obs6
